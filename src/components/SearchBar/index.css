@@ -1,0 +1,47 @@
+.search-bar input {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Search and Save Buttons */
+.search-bar button {
+  padding: 8px 12px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #0056b3;
+}
+
+/* Saved Cities List */
+.saved-cities {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.saved-cities h3 {
+  color: #555;
+}
+
+.saved-cities ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.saved-cities li {
+  cursor: pointer;
+  color: #007bff;
+  margin: 5px 0;
+}
+
+.saved-cities li:hover {
+  text-decoration: underline;
+}
