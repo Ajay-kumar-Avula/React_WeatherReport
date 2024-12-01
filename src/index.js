@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Weather from './components/weatherDashBoard'
+import App from './App'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Weather />
+    <App />
   </React.StrictMode>,
   document.getElementById('root'),
 )

@@ -1,0 +1,162 @@
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-left: 1px solid #ddd;
+}
+
+h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Ask Catura Section */
+.ask-catura {
+  background-color: #fff;
+  
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.catura-options {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.catura-btn {
+  cursor: pointer;
+  background: none;
+}
+
+.catura-btn:hover {
+  background-color: #0056b3;
+}
+
+.catura-textarea {
+  width: 100%;
+  height: 80px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.catura-actions {
+  display: flex;
+  gap: 10px;
+  background-image: url ('');
+}
+
+.catura-send,
+.catura-preview {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #28a745;
+  color: #fff;
+  cursor: pointer;
+}
+
+.catura-preview {
+  background-color: #17a2b8;
+}
+
+.catura-send:hover {
+  background-color: #218838;
+}
+
+.catura-preview:hover {
+  background-color: #138496;
+}
+
+/* Action Launcher Section */
+.action-launcher {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.action-search {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.action-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.action-btn:hover {
+  background-color: #0056b3;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.action-item {
+  padding: 10px;
+  background-color: #e9ecef;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.action-item:hover {
+  background-color: #ddd;
+}
+
+/* Case Favorite Section */
+.case-favorite {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.favorite-item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.favorite-item:last-child {
+  border-bottom: none;
+}
+
+.favorite-item {
+  border: 2px solid #555;
+  margin: 5px;
+  color: #555;
+  border-radius: 5px;
+  padding: 10px;
+}
+.send-icon {
+  height: 30px;
+  width: 30px;
+  border-radius: 30%;
+  background-color: #007bff;
+  color: white;
+  align-self: center;
+}
+.ask-catura-btns {
+  display: flex;
+  justify-content: space-around;
+}
